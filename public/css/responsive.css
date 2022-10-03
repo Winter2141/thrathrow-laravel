@@ -1,0 +1,2975 @@
+@media screen and (max-width: 1400px) {
+    #wrapper-3 .cr-img-contain{
+        min-width: 180px;
+        max-width: 180px;
+        min-height: 180px;
+        max-height: 180px;
+    }
+    #promo-img{
+        background-size: 100% auto;
+    }
+    #promo-data h1{
+        font-size: 3rem;
+    }
+    #sb-bpm, #sb-price-slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sb-range-slider {
+        width: 185px !important;
+    }
+    #sb-price-slider .range_inpt1, #sb-price-slider .range_inpt2{
+        width: 90px;
+    }
+    #explore-sec, #beats-sec{
+        padding-top: 7%;
+    }
+    .hdr-uppr-row .wrapper-heading{
+        width: 68%;
+    }
+    #tracks-container .trending-card{
+        width: 22.5%;
+    }
+    .list-view .track-menu{
+        width: 15%;
+        left: 76%;
+    }
+    #producer-tracks .list-view .track-menu{
+        left: 75%;
+    }
+    .continue-choices{
+        padding: 0 100px;
+    }
+    .wrapper-h1{
+        font-size: 1.8rem;
+    }
+
+    /* Popup Modal for buy beats */
+    #buyBeatsModal .modal-dialog{
+        max-width: 80%;
+    }
+    #buyBeatsModal .track-details{
+        width: 100%;
+    }
+    #buyBeatsModal .modal-body{
+        padding: 4% 0;
+        height: 70vh;
+        overflow-y: auto;
+    }
+    .pd-bottom{
+        padding-bottom: 18% !important;
+    }
+    .beat-details{
+        padding-left: 34px !important;
+    }
+    .my-beats-con .list-view .track-menu{
+        left: 82%;
+    }
+    .my-beats-hdr{
+        padding: 10% 4.165% 4% 4.165%;
+    }
+    .my-beats-con .hdr-uppr-row{
+        top: 92px;
+    }
+    .beats-info-hdr{
+        padding: 12% 12% 2.5% 13.1%;
+    }
+    /* .nt-arrow-up{
+        top: -10%;
+    } */
+
+    #msg-sidebar{
+        max-width: 40%;
+    }
+    .chat-right-b{
+        max-width: 60% !important;
+    }
+    #messenger-sec{
+        padding: 8% 10% 0% 10%;
+    }
+    .chats-con{
+        min-height:  60vh;
+        max-height:  60vh;
+    }
+    .info-box{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .call-main-wrapper{
+        min-width: 1000px;
+        max-width: 1000px;
+    }
+    #live-call-sec{
+        padding: 8% 8.33% 2% 8.33%;
+    }
+    .pr-con-btn1 button, .pr-con-btn2 button{
+        padding: 20px 20px !important;
+    }
+    .pay-op-box label{
+        min-width: 170px;
+        max-width: 170px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+    .pay-op-box label::before {
+        top: 23px;
+        left: 14px;
+    }
+    .pay-op-box label::after {
+        top: 23px;
+        left: 14px;
+    }
+    .pay-op-box img{
+        min-width: 40px;
+        max-width: 40px;
+    }
+}
+@media screen and (max-width: 1325px) {
+    .cr-img-content{
+        min-height: 230px;
+        max-height: 240px;
+    }
+    .cr-img-contain img{
+        min-height: 230px;
+        max-height: 240px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    .cr-song-name{
+        font-size: 1rem;
+    }
+    .cr-song-data span{
+        font-size: 13px;
+    }
+    .range_inpt1, .range_inpt2{
+        font-size: .9rem;
+    }
+    .list-view .cr-info{
+        width: 70%;
+        left: 17%;
+    }
+    .list-view .cr-img-contain img{
+        min-width: 70px;
+        max-width: 75px;
+        min-height: 70px;
+        max-height: 75px;
+    }
+    .list-view .cr-song-data{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .list-view .song-tags,
+    .list-view .song-tags .first-tag{
+        margin-left: 0;
+        margin-top: 1%;
+    }
+    #sm-tracks-btn hr{
+        width: 35vw;
+    }
+    .b-popular-pro .cr-img-contain{
+        min-width: 210px;
+        max-width: 210px;
+        min-height: 210px;
+        max-height: 210px;
+    }
+    .list-view .track-menu {
+        width: 22%;
+        left: 68%;
+        top: 86%;
+    }
+    .t-menu-2{
+        width: 100% !important;
+        right: 0;
+    }
+    #producer-tracks .hdr-uppr-row .wrapper-heading{
+        width: 86.5%;
+    }
+    #wrapper-sec{
+        padding: 12% 4.165% 5% 4.165%;
+    }
+    /* Login Page */
+    #wrapper-con{
+        margin: 0 auto;
+        max-width: 50% !important;
+    }
+
+    .pd-bottom{
+        padding-bottom: 26% !important;
+    }
+    /* Uplaod beats Page */
+    .up-cover-btn button{
+        padding: 16px 60px;
+    }
+    .stream-track{
+        padding: 25px 15px 12px 40px !important;
+    }
+    .music-i{
+        margin-right: 41px;
+    }
+    .circle-play-i{
+        margin-right: 11px;
+    }
+    .my-beats-hdr{
+        padding: 13% 4.165% 4% 4.165%;
+    }
+    #nt-i{
+        margin-left: 40px;
+    }
+    #notification-box{
+        left: -442px;
+    }
+    #hire-pro-sec{
+        padding: 13% 9% 3% 9%;
+    }
+
+    /* Messenger Page START */
+    #messenger-sec{
+        padding: 10% 8% 5% 8%;
+    }
+    /* Messenger Page END */
+    .call-main-wrapper{
+        min-width: 900px;
+        max-width: 900px;
+    }
+    #live-call-sec{
+        padding: 10% 8.33% 2% 8.33%;
+    }
+}
+/*Large devices (desktops, 992px)*/
+@media screen and (max-width: 1199.98px) {
+    /*Section START*/
+    #main-src-con p{
+        line-height: 100px;
+    }
+    #nav-dropdown{
+        width: 120%;
+        overflow: hidden;
+    }
+    #wrapper-3 .cr-img-contain{
+        min-width: 140px;
+        max-width: 140px;
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .hdr-uppr-row .wrapper-heading{
+        width: 68%;
+    }
+    #tracks-container .trending-card{
+        width: 30.5%;
+    }
+    .cr-img-content,
+    .cr-img-contain img{
+        min-height: 300px;
+        max-height: 310px;
+    }
+
+    .b-popular-pro .cr-img-content{
+        max-height: 250px;
+        min-height: 255px;
+    }
+    /* Upload Beats Page */
+    #up-cover-btn button{
+        padding: 16px 30px;
+    }
+    .st-track-name{
+        font-size: 1.1rem;
+    }
+    .music-i{
+        margin-right: 20px;
+    }
+    .stream-track{
+        padding: 25px 15px 12px 25px !important;
+        margin-left: 0;
+    }
+    .beat-details{
+        padding-left: 40px !important;
+    }
+    .cart-items .beat-name{
+        font-size: 1rem;
+    }
+    .my-beats-con{
+        padding: 0% 0% 3% 0%;
+    }
+    .my-beats-con .hdr-uppr-row .wrapper-heading{
+        width: 86%;
+    }
+    .my-beats-con .list-view .cr-price-btn{
+        top: 10%;
+    }
+    .my-beats-con .wrapper-heading{
+        padding: 1.5% 0 1.5% 3%;
+    }
+    .my-beats-con .list-view .track-menu{
+        left: 75%;
+    }
+    .my-beats-hdr{
+        padding: 14% 4.165% 4% 4.165%;
+    }
+    .my-pl-tracks .trending-card{
+        width: 22.5% !important;
+    }
+    .my-pl-tracks .cr-img-content{
+        min-height: 238px;
+        max-height: 238px;
+        border-radius: 8px;
+    }
+    .my-pl-tracks .cr-img-contain img{
+        min-height: 238px;
+        max-height: 238px;
+    }
+    .my-pl-tracks .cr-song-name{
+        font-size: 1.1rem;
+    }
+    .my-pl-tracks .cr-song-data span{
+        font-size: 1rem;
+    }
+    .playliist-view{
+        padding: 12% 4.165% 2.5% 4.165% !important;
+    }
+    .created-playlist{
+        padding: 0% !important;
+    }
+    .created-playlist #pl-view-hdr{
+        padding: 12% 4.165% 2.5% 8.33% !important;
+    }
+    .created-playlist #new-playlist-btn{
+        padding-left: 8% !important;
+    }
+    #hire-pro-sec{
+        padding: 12% 9% 3% 9%;
+    }
+    #msg-sidebar{
+        max-width: 30%;
+    }
+    .info-box{
+        width: 80%;
+        margin-left: 10%;
+        padding: 13px 30px;
+    }
+    .info-b-i img{
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .info-b-txt p{
+        font-size: 1rem;
+    }
+    .contract-inst{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .call-main-wrapper{
+        min-width: 800px;
+        max-width: 800px;
+    }
+    #live-call-sec{
+        padding: 12% 8.33% 2% 8.33%;
+    }
+    .pr-con-btn1 button, .pr-con-btn2 button{
+        padding: 15px !important;
+    }
+    .payment-block{
+        margin-left: 8.33%;
+    }
+
+}
+/*Medium devices (tablets, less than 992px)*/
+@media screen and (max-width: 991.98px) {
+    /*Find Producer Section START*/
+    #find-producer-sec{
+        justify-content: flex-start;
+        align-items: flex-end;
+        height: 100%;
+    }
+    #find-pro-data{
+        padding: 2% 4%;
+        background: rgba(0,0,0,0.6);
+        margin: 0;
+        padding: 5%;
+    }
+    #find-pro-data h2{
+        font-size: 2.5rem;
+        line-height: 60px;
+    }
+    #find-pro-btn button{
+        padding: 8px 35px;
+        font-size: 1.2rem;
+    }
+    #wrapper-3 .trending-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Sell Beats section*/
+    #sell-b-data h2{
+        line-height: 60px;
+        font-size: 4vw;
+    }
+    #sell-b-data p{
+        font-size: 2vw;
+    }
+    /*News Letter START*/
+    #news-letter h2{
+        font-size: 4rem;
+    }
+    #news-letter p{
+        font-size: 1.1rem;
+    }
+    /*News Letter END*/
+
+    #bl-4-img img{
+        width: 70%;
+    }
+    #bl-1 h2, #bl-2 h2, #bl-3 h2, #bl-4 h2{
+        font-size: 1.3rem;
+        margin-bottom: 8%;
+    }
+    #bl-1 ul li, #bl-2 ul li, #bl-3 ul li{
+        margin: 6% 0;
+    }
+    #social-medias{
+        width: 25%;
+    }
+    .play-controls, .right-block{
+        margin-top: 3% !important;
+    }
+    #explore-sec, #beats-sec{
+        padding-top: 15.5%;
+    }
+    #explore-sidebar{
+        position: fixed;
+        z-index: 5;
+        width: 0%;
+        padding-top: 10%;
+    }
+    #tracks-container .trending-card{
+        width: 30.5%;
+        margin: 2% 0 4% 2.5%;
+    }
+    .hdr-uppr-row .wrapper-heading{
+        width: 82%;
+        font-size: 1.8rem;
+    }
+    .list-view .cr-over-options{
+        width: 289px;
+    }
+    #side-m-btn{
+        display: flex !important;
+        align-items: center;
+        margin-top: -2%;
+    }
+    .sidebar-change{
+        width: 30% !important;
+    }
+    .sidebar-change-i{
+        right: 70%;
+        padding: 10px 16px !important;
+        transition: .3s !important;
+        box-shadow: 0 0 0 !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        border-top-left-radius: 30px !important;
+        border-bottom-left-radius: 30px !important;
+        background: blue;
+    }
+    .sidebar-change-i span{
+        font-size: 2rem;
+        transform: rotate(45deg);
+    }
+    .wrapper-heading{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        top: 9%;
+        left: 0;
+        font-size: 1.8rem;
+    }
+    /*Buy Beat Page START*/
+    .payment-block{
+        margin-left: 4.165%;
+        padding: 2.5% 20px !important;
+        border-radius: 18px;
+    }
+    #buy-beat-sec{
+        padding: 140px 2.165% 4% 2.165%;
+    }
+    .crt-hdr{
+        font-size: 1.5rem;
+    }
+    .pay-hdr{
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+    .pay-op-box label{
+        min-width: 155px;
+        max-width: 155px;
+        min-height: 75px;
+        max-height: 75px;
+    }
+    .cart-tr-img img{
+        min-width: 50px;
+        max-width: 50px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    .pay-op-box img,
+    .pay-op-box .paypal-logo{
+        min-width: 30px;
+        max-width: 30px;
+    }
+    .pay-op-box label::before,
+    .pay-op-box label::after{
+        width: 26px;
+        height: 26px;
+    }
+    .cart-item-op{
+        margin-left: 41.666667%;
+    }
+    /*Buy Beat Page END*/
+
+    /*Main Player*/
+    .t-menu-2{
+        width: 65% !important;
+        right: 28%;
+    }
+    #pro-bg-overlay{
+        padding: 14% 0% 0% 11.33% !important;
+    }
+    .producer-img, .producer-img img {
+        min-width: 195px;
+        max-width: 195px;
+        min-height: 195px;
+        max-height: 195px;
+    }
+    #producer-tracks{
+        padding: 3% 15px 33% 15px !important;
+    }
+    #producer-tracks .list-view .cr-over-options{
+        margin-right: 0;
+    }
+    #producer-tracks .list-view .cr-price-btn{
+        top: 10%;
+        right: -8.5%;
+    }
+    #producer-tracks .list-view .cr-info{
+        left: 17%;
+    }
+    #producer-tracks .list-view .cr-song-name a{
+        font-size: 1.1rem;
+    }
+    /* Edit Page START */
+    .wrapper-sidebar{
+        width: 100%;
+    }
+    .wrapper-con-area{
+        margin-left: 4.165%;
+    }
+    /* Edit Page END */
+    .wrapper-con-area2 .inp-submit-btn{
+        margin-left: auto !important;
+    }
+    .edit-inputs input[value]{
+        font-size: 1rem;
+    }
+
+    /* Upload Beats Page */
+    .info-txt{
+        left: 33%;
+    }
+
+    #buyBeatsModal #track-items ul li{
+        margin: 5% 0;
+    }
+    #buyBeatsModal .track-img,
+    #buyBeatsModal .track-img img{
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+    #buyBeatsModal{
+        padding-top: 11%;
+    }
+    .beat-details{
+        padding-left: 45px !important;
+    }
+
+    .my-beats-con .list-view .cr-price-btn{
+        right: -7%;
+    }
+    .my-beats-con .hdr-uppr-row .wrapper-heading{
+        width: 84%;
+    }
+    .my-beats-con .list-view .cr-info{
+        left: 18%;
+    }
+    .my-beats-hdr{
+        padding: 18% 4.165% 4% 4.165%;
+    }
+    .my-beats-con .hdr-uppr-row{
+        top:  100px;
+    }
+    .my-wallet-sec .con1{
+        max-width: 94% !important;
+        margin: 0 0 0 3% !important;
+    }
+    .my-wallet-sec #balance-amt{
+        font-size: 2.5rem;
+    }
+    #wrapper-sec{
+        padding:15% 4.165% 5% 4.165%;
+    }
+    .my-wallet-sec .wrapper-hd{
+        padding-left: 3%;
+    }
+    .wallet-con{
+        padding-left: 0 !important;
+    }
+    .wl-con-r-side{
+        padding-right: 0 !important;
+    }
+
+    #croppedImage .modal-dialog,
+    #artworkModal .modal-dialog,
+    #playlistModal .modal-dialog{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 18%;
+    }
+
+    /* Playlist view Page START */
+    #pl-view-hdr{
+        padding-left: 5%;
+    }
+    #new-playlist-btn{
+        padding-left: 3% !important;
+    }
+    #new-playlist-btn{
+        padding-left: 4%;
+        margin-top: 8%;
+    }
+    /* Playlist view Page END */
+    .beats-info-hdr{
+        padding: 17% 12% 2.5% 13.1%;
+    }
+    .bt-hdr1{
+        font-size: 1.5rem;
+    }
+    .bt-hdr2{
+        font-size: 1.4rem;
+    }
+    .bt-info-con #pro-bg-overlay{
+        padding: 0 !important;
+    }
+    .bt-info-con .producer-img, .bt-info-con .producer-img img{
+        min-width: 145px;
+        max-width: 145px;
+        min-height: 145px;
+        max-height: 145px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    .bt-info-con #pro-lower-row{
+        flex-direction: column;
+    }
+    .bt-info-con #pro-social-medias{
+        padding-left: 0 !important;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .bt-info-con .producer-bio{
+        width: 100%;
+        margin-bottom: 8%;
+        font-size: .9rem;
+    }
+    .cmt-block{
+        padding: 30px 150px 10px 150px;
+    }
+    #notification-box{
+        min-width: 440px;
+        max-width: 440px;
+        left: -350px;
+    }
+    .nt-item-b{
+        padding: 20px 10px;
+    }
+    #hire-pro-img, #hire-pro-img img{
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+    .pro-name{
+        font-size: 1.6rem;
+    }
+    .view-p-btn button{
+        padding: 15px 100px;
+    }
+    #messenger-sec{
+        padding: 14% 4.165% 5% 4.165%;
+    }
+    .chat-user .user-img, .chat-user .user-img img{
+        min-width: 45px;
+        max-width: 45px;
+        min-height: 45px;
+        max-height: 45px;
+    }
+    #msg-sidebar{
+        max-width: 35%;
+    }
+    .chat-right-b{
+        max-width: 65% !important;
+    }
+    .info-box{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contract-inst{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #contract-details{
+        padding: 20px 25px;
+    }
+    #con-details{
+        padding: 10px 35px;
+    }
+    .validate-btn{
+        margin-left: 20%;
+    }
+    .validate-btn button{
+        min-width: 60%;
+    }
+    .con-item .con-item-txt{
+        min-width:  150px;
+    }
+    .con-pt-bl{
+        min-width: 180px;
+    }
+    .pt-btm-li li{
+        text-align: center;
+    }
+    /* Live Video Calling Page START */
+    #live-s-sec{
+        padding: 15% 8.33% 3% 8.33%;
+    }
+    .cam-r-hdr{
+        min-width: 280px !important;
+        max-width: 280px !important;
+        font-size: 1.1rem !important;
+    }
+    .cam-bl-right .live-s-btn button{
+        min-width: 280px;
+        max-width: 280px;
+    }
+    .cam-block{
+        min-height: 400px;
+        max-height: 400px;
+    }
+    .call-main-wrapper{
+        min-width: 590px;
+        max-width: 590px;
+    }
+    #live-call-sec{
+        padding: 14% 8.33% 2% 8.33%;
+    }
+    .pl-bottom-bar{
+        padding: 10px 100px 30px 100px;
+    }
+    .caller-img, .caller-img img{
+        min-width: 90px;
+        max-width: 90px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+    .calling-wrapper{
+        min-height: 380px;
+        max-height: 380px;
+    }
+    .cam-btn{
+        min-width: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        min-height: 50px;
+    }
+    /* Live Video Calling Page END */
+    .pr-con-btn1 button, .pr-con-btn2 button{
+        font-size: .9rem;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 767.98px) {
+    /*header START*/
+
+    #nav-dropdown{
+        width: 141%;
+        left: -20%;
+    }
+    .nav-li-2{
+        margin-left: 0 !important;
+        position: absolute !important;
+        top: 0;
+        left: 10%;
+        padding-left: 4% !important;
+    }
+    .nav-li-1 a:nth-child(1){
+        margin-top: 6% !important;
+    }
+    .search-bar{
+        display: flex;
+        align-items: center;
+        /*margin-left: 8.33%;*/
+        /*margin-left: 29.33%;*/
+    }
+    .search-bar input{
+        padding-left: 17%;
+    }
+    #ham-btn{
+        margin-top: 0;
+        display: block;
+    }
+    #n-srch-i{
+        /*cursor: pointer;*/
+        left: 9%;
+    }
+    .search-bar input, .search-options {
+        /*display: none;*/
+    }
+    #nav-li-i{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 120%;
+        transition: all .3s ease;
+        padding: 3% 8% 5% 8%;
+        background: #0D0D0D;
+    }
+    .nav-li-1{
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .nav-li-1 a{
+        margin: 2% 0;
+    }
+    .nav-li-1 .n-upload-btn{
+        width: 100%;
+        text-align: center;
+        /*margin-left: 25%;*/
+    }
+    .nav-li-2{
+        padding-right: 4% !important;
+        display: flex;
+        justify-content: center;
+        width: 50% !important;
+        margin-top: 3%;
+        margin-left: 25%;
+    }
+    /*header END*/
+    .search-bar .nav-srch input{
+        position: absolute;
+        top: 2.7em;
+        width: 155%;
+        left: -41.5%;
+        justify-content: flex-end;
+        padding-left: 15px;
+    }
+    .none {
+        display: none;
+    }
+    .search-options{
+        /*display: none;*/
+        min-width: 138px;
+        top: 61px;
+        right: -83px;
+    }
+    .search-options i{
+        -webkit-transform: translateX(-245%);
+    }
+    #n-srch-i{
+        cursor: pointer;
+        outline: none;
+        left: 85%;
+        top: -10px;
+    }
+    .nav-li-1 a{
+        margin: 4% 0;
+    }
+    .nav-li-2{
+        width: 80% !important;
+        margin-left: 10%;
+    }
+
+    /*Header END*/
+    /*Section START*/
+    #main-src-con p{
+        margin-top: 35%;
+        font-size: 8vw;
+    }
+    #main-src-srch input{
+        padding: 6px 50px;
+    }
+    #main-src-srch input[placeholder]{
+        font-size: 1.1rem;
+    }
+    .main-src-sel select{
+        background: #f5f5f5;
+        padding-right: 20px;
+        min-width: 140px;
+        max-width: 200px;
+    }
+    .ver-line1{
+        right: 113px;
+        z-index: 2;
+    }
+    .main-src-sel img{
+        width: 16px;
+        top: 42%;
+        right: 15px;
+        z-index: 2;
+    }
+    /*Section END*/
+    #hire-pro a{
+        font-size: 1.5rem;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        padding: 35px;
+    }
+    .cr-img-content{
+        min-height: 420px;
+        max-height: 430px;
+        /*max-width: 370px;*/
+    }
+    .cr-img-contain img{
+        min-height: 315px;
+
+    }
+    .cr-over-content{
+        visibility: visible;
+        flex-direction: row;
+        opacity: 1;
+        top: 80%;
+        height: 20%;
+        bottom: 0;
+        padding: 0 15px;
+        background: rgba(0,0,0,.6);
+        border-radius: 16px;
+    }
+    .cr-img-contain{
+        overflow: hidden;
+        border-radius: 12px;
+    }
+    .cr-song-name{
+        font-size: 1.1rem;
+    }
+    .cr-song-data span{
+        font-size: 16px;
+    }
+    .cr-play-btn{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cr-play-btn span{
+        font-size: 2rem;
+    }
+    .cr-play-btn button{
+        color: #FE2B0D;
+        border-color: #FE2B0D;
+    }
+    .cr-img-content:hover .cr-over-content{
+        height: 20%;
+        top: 80%;
+    }
+    .list-view .cr-img-content:hover .cr-over-content {
+        /*height: auto !important; */
+        top: 0;
+    }
+    .list-view .cr-over-content{
+        padding: 0;
+    }
+    .list-view .cr-song-name{
+        font-size: .9rem !important;
+    }
+    .list-view .cr-song-data span{
+        font-size: .9rem !important;
+    }
+    .list-view .cr-img-contain img{
+        margin-left: 10%;
+        min-width: 55px;
+        max-width: 60px;
+        min-height: 55px;
+        max-height: 60px;
+    }
+    .cr-over-options{
+        margin-top: 0%;
+    }
+    .list-view .cr-over-options{
+        margin-right: 0;
+    }
+    .list-view .cr-info{
+        left: 25%;
+        width: 65%;
+    }
+    .list-view .cr-play-btn{
+        visibility: visible;
+        opacity: 1;
+        margin-left: 6.5%;
+        width: 35px;
+        height: 35px;
+        font-size: 1rem !important;
+    }
+    .list-view .cr-price-btn{
+        font-size: .9rem !important;
+        top: 5%;
+        right: -10px;
+    }
+    .list-view .trending-card:hover .track-num{
+        visibility: visible;
+        opacity: 1;
+    }
+    .list-view .cr-img-content:hover {
+        background: none;
+    }
+    .list-view .song-tags{
+        width: 100%;
+    }
+    #sb-links-1 li{
+        margin-top: 0;
+    }/*
+	#side-m-btn{
+		display: flex !important;
+	}*/
+    /*Find Producer Section START*/
+    #find-pro-data h2{
+        font-size: 2.2rem;
+        line-height: 60px;
+    }
+    #find-pro-data p{
+        font-size: 1rem;
+    }
+    #wrapper-3 .pro-name{
+        font-size: 1.1rem;
+    }
+    .wrapper-heading{
+        top: 12%;
+    }
+    #wrapper-3 .trending-card{
+        justify-content: center;
+    }
+    /*Find Producer Section END*/
+
+    /*Sell Beats Section START*/
+    .sell-beat-sec{
+        background-position: center;
+        padding: 0;
+    }
+    #sell-b-data h2{
+        line-height: 40px;
+        font-size: 22px;
+    }
+    #sell-b-data p{
+        width: 76%;
+        font-size: 1rem;
+    }
+    #sell-b-btn button{
+        font-size: 1.3rem;
+        padding: 8px 45px;
+    }
+    /*Sell Beats Section END*/
+
+    /*Promotion Section START*/
+    #promo-sec{
+        flex-direction: column;
+    }
+    #promo-data{
+        order: 2;
+    }
+    #promo-img{
+        order: 1;
+    }
+    /*Promotion Section END*/
+
+    /*News Letter Section*/
+    #news-letter{
+        padding: 8% 15px;
+    }
+    #news-letter h2{
+        font-size: 3rem;
+    }
+    #news-letter p{
+        font-size: 1rem;
+    }
+    #bl-3, #bl-4{
+        margin-top: 3%;
+    }
+    #bl-4-img img{
+        width: 58%;
+    }
+    #social-medias{
+        width: 38%;
+        margin-bottom: 4%;
+    }
+    #bl-1 h2, #bl-2 h2, #bl-3 h2, #bl-4 h2{
+        margin-bottom: 6%;
+    }
+    #explore-sidebar{
+        z-index: 8;
+        position: fixed;
+        margin-top: 5.5%;
+        transition: .2s;
+    }
+    .sidebar-change{
+        width: 100% !important;
+    }
+    #side-m-btn{
+        margin-top: 3%;
+    }
+
+    .sidebar-change-i{
+        right: 0%;
+        padding: 10px 16px !important;
+        transition: .3s !important;
+        box-shadow: 0 0 0 !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        border-top-left-radius: 30px !important;
+        border-bottom-left-radius: 30px !important;
+        background: blue;
+    }
+
+    .hdr-uppr-row .wrapper-heading{
+        width: 78%;
+    }
+    #popluar-pr-sec .cr-img-content{
+        min-height: 210px;
+        max-height: 210px;
+    }
+    #popluar-pr-sec  .b-popular-pro .cr-img-contain{
+        min-width: 180px;
+        max-width: 180px;
+        min-height: 180px;
+        max-height: 180px;
+    }
+    /*Buy Beat Page START*/
+    #buy-beat-sec{
+        padding: 140px 4.165% 4.465%;
+    }
+    #cart-block{
+        padding: 0 4.165%;
+    }
+    .cart-items .beat-details{
+        padding-left: 15px !important;
+    }
+    .payment-block .payment-inputs .inp1{
+        margin: 0;
+    }
+    .payment-block{
+        margin-left: 0;
+        margin-top: 25px;
+        padding: 30px 15px !important;
+    }
+    .payment-block .payment-inputs label{
+        margin-top: 4%;
+    }
+    .crt-hdr{
+        font-size: 1.2rem;
+    }
+    .pay-hdr{
+        font-size: 1.8rem;
+    }
+    .payment-block .payment-inputs .inp-submit-btn{
+        font-size: 1.2rem !important;
+    }
+    .pay-op-box label{
+        min-width: 190px;
+        max-width: 190px;
+        min-height: 90px;
+        max-height: 90px;
+    }
+    .pay-op-box label::before,
+    .pay-op-box label::after{
+        top: 31px;
+        left: 24px;
+    }
+    .cart-item-op{
+        margin-left: 0%;
+    }
+    #beats-total-pr h2{
+        font-size: 1.6rem;
+    }
+    #pay-tooltip .arrow-up{
+        left: 18%;
+    }
+    /*Buy Beat Page END*/
+    /*Main Player*/
+    .t-menu-2 {
+        /*width: 27% !important;*/
+        right: 20%;
+    }
+    #producer-tracks .hdr-uppr-row .wrapper-heading{
+        text-align: left;
+        margin-bottom: 0;
+        width: 81.5%;
+    }
+
+    #pro-bg-overlay{
+        padding: 20% 15px 0% 15px !important;
+    }
+    .producer-img, .producer-img img {
+        min-width: 170px;
+        max-width: 170px;
+        min-height: 170px;
+        max-height: 170px;
+    }
+    .producer-name{
+        font-size: 2rem;
+    }
+    .producer-bio{
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    #pro-social-medias{
+        padding-left: 5%;
+    }
+    #pro-social-medias a{
+        font-size: 1rem;
+        min-width: 30px;
+        max-width: 30px;
+        min-height: 30px;
+        max-height: 30px;
+        margin: 0 3.5%;
+    }
+    #hire-producer-btn a button{
+        min-width: 190px;
+        max-width: 190px;
+        font-size: 1rem;
+        padding: 5px 19px 5px 0px;
+    }
+    #hire-producer-btn i{
+        font-size: 1.3rem;
+    }
+
+    #producer-tracks #tracks-container{
+        justify-content: center;
+    }
+    #producer-tracks #tracks-container .trending-card{
+        width: 40.5%;
+    }
+    #producer-tracks .list-view .cr-price-btn{
+        right: -14.5%;
+    }
+    #producer-tracks .list-view .cr-img-contain img{
+        margin-left: 3%;
+    }
+    #producer-tracks .cr-over-content{
+        justify-content: center;
+    }
+    #producer-tracks .list-view .cr-over-content{
+        justify-content: flex-end;
+    }
+    #wrapper-sec{
+        padding: 20% 4.165% 5% 4.165%;
+    }
+    .wrapper-sidebar{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .wrapper-sidebar li{
+        margin: 2% 0;
+    }
+    .wrapper-sidebar li a{
+        padding: 10px 0px 10px 7%;
+    }
+    .wrapper-con-area{
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    .inp-submit-btn{
+        margin: 7% auto 0 auto !important;
+    }
+    .wrapper-con-area .producer-img, .wrapper-con-area .producer-img img{
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+    }
+
+    #service-checkboxes{
+        margin-top: 28px;
+    }
+
+    /* Login page */
+    #wrapper-con{
+        margin: 0 auto;
+        max-width: 70% !important;
+    }
+
+    /* Upload Beats Page */
+    #upload-beats-sec{
+        padding: 160px 30px 10% 30px;
+    }
+    .beats-wrapper-con{
+        padding: 10px 4.165% 100px 4.165% !important;
+    }
+    .input-fields label{
+        margin-top: 6%;
+    }
+    #up-beat-btn button{
+        width: 44%;
+        margin-left: 28%;
+    }
+    .wrapper-h4{
+        margin-top: 5%;
+    }
+    .stream-track{
+        padding: 26px 15px 12px 150px !important;
+        /* padding-right: 40px; */
+        /* width: 100%; */
+        /* text-align: center; */
+    }
+    .music-i,
+    .circle-play-i{
+        margin-right:40px;
+    }
+    .fliped-side{
+        padding: 26px 15px 12px 80px !important;
+    }
+    #buyBeatsModal{
+        padding-top: 15%;
+    }
+    .my-beats-con .list-view .cr-price-btn{
+        right: -3%;
+        top:  6%;
+    }
+    .my-beats-con .hdr-uppr-row .wrapper-heading{
+        width: 80%;
+    }
+    .my-beats-con .list-view .cr-over-options{
+        margin-right: -2%;
+    }
+    .my-beats-con .list-view .cr-info{
+        left: 26%;
+    }
+    .my-beats-con .list-view .cr-song-name a{
+        font-size: .9rem;
+    }
+    .my-beats-con .list-view .trending-card{
+        margin-bottom: 4% !important;
+    }
+    .my-beats-con .list-view .cr-img-content:hover{
+        background: transparent;
+    }
+    .my-beats-con .list-view .trending-card:hover .track-num{
+        visibility: visible;
+        opacity: 1;
+    }
+    .my-beats-hdr{
+        padding: 23% 4.165% 4% 4.165%;
+    }
+    .my-beats-hdr h2{
+        padding-left: 0;
+    }
+    .my-beats-con .hdr-uppr-row{
+        top: 115px;
+    }
+    #trans-history{
+        padding: 25px 25px 20px 25px;
+    }
+    .wl-con-b{
+        padding: 25px;
+        min-height: 320px;
+        margin-top: 8%;
+    }
+    .wl-con-r-side{
+        padding-left: 0 !important;
+    }
+    .wallet-con{
+        padding-right: 0 !important;
+    }
+    #playlistModal .modal-dialog{
+        margin-top: 18%;
+    }
+    #new-playlist-btn{
+        padding: 0;
+    }
+    .my-pl-tracks{
+        display: block !important;
+        float: left;
+        padding: 0px !important;
+    }
+    .my-pl-tracks .trending-card{
+        width: 30.5% !important;
+        float: left;
+        margin: 3% 1.4%  !important;
+        min-height: 325px;
+    }
+    .my-pl-tracks .cr-img-content{
+        min-height: 235px;
+        max-height: 235px;
+        border-radius: 3px !important;
+    }
+    .my-pl-tracks .cr-img-content img{
+        min-height: 235px;
+        max-height: 235px;
+    }
+    .my-pl-tracks .cr-song-name{
+        font-size: 1.1rem;
+    }
+    .my-pl-tracks .cr-song-data span{
+        font-size: 1rem;
+    }
+    .my-playlist-sec .wrapper-hd{
+        padding-left: 0;
+    }
+    #artworkModal #img-croping{
+        min-height: 245px;
+        max-height: 245px;
+    }
+    .playliist-view{
+        padding: 20% 4.165% 2.5% 4.165% !important;
+    }
+
+    .created-playlist{
+        padding: 0% !important;
+    }
+    .created-playlist #pl-view-hdr{
+        padding: 25% 8.165% 2.5% 8.33% !important;
+    }
+    .bt-info-con #pro-bg-overlay{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bt-info-con .producer-name,
+    .bt-info-con .producer-bio{
+        text-align: center;
+    }
+    .bt-info-con #pro-lower-row{
+        align-items: center;
+    }
+    .bt-info-con #hire-producer-btn a button{
+        padding: 8px 19px 8px 0px;
+        border-radius: 4px;
+    }
+    .bt-info-con #pro-social-medias{
+        justify-content: center;
+    }
+    .cmt-block{
+        padding: 30px 80px 10px 80px;
+    }
+    #bt-comments-bl textarea{
+        width: 90%;
+    }
+    #bt-comments-bl{
+        padding-right: 5%;
+    }
+    .purchase-sec{
+        padding: 15% 11.33% 5% 11.33%;
+    }
+    #notification-box{
+        min-width: 540px;
+        max-width: 540px;
+        left: -276px;
+    }
+    .nt-arrow-up{
+        top: -9%;
+        right: 211px;
+    }
+    #hire-pro-sec{
+        padding: 20% 9% 3% 9%;
+    }
+    .hire-sub-btn{
+        font-size: 1.1rem;
+        padding: 15px 30px !important;
+    }
+    .hire-left{
+        order: 2;
+    }
+    .hire-right-b{
+        order: 1;
+    }
+    .hire-s{
+        padding: 10px 4.165% 40px 4.165% !important;
+    }
+
+    /* Messenger Page START */
+    #messenger-sec{
+        padding: 15.5% 4.165% 5% 4.165%;
+    }
+    #msg-sidebar{
+        height: 100vh;
+        transition: .2s;
+        position: fixed;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 4;
+        max-width: 10%;
+    }
+    .chat-right-b{
+        margin-top: 10%;
+        border-left: 0.5px solid rgba(255, 255, 255, 0.2);
+        max-width: 94% !important;
+        margin-left: 3%;
+    }
+
+    .mgn-hdr{
+        font-size: 1.3rem !important;
+    }
+    #chat-s-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #chat-s-btn2{
+        display: flex;
+    }
+    .inst-list li{
+        margin-left: 25px;
+    }
+    .bar-op span{
+        font-size: 1.8rem;
+    }
+    .bar-op img{
+        min-width: 29px;
+        max-width: 29px;
+        min-height: 29px;
+        max-height: 29px;
+    }
+    .user-msg-bl{
+        max-width: 265px;
+    }
+    .con-pt-bl{
+        min-width:  200px;
+    }
+    #liveSession .modal-content{
+        padding: 25px 15px;
+    }
+    #liveSession .modal-dialog{
+        margin-top: 20%;
+    }
+    /* Messenger Page END */
+    /* Live Video Calling Page START */
+    #live-s-sec{
+        padding: 18% 8.33% 3% 8.33%;
+    }
+    .live-hdr{
+        font-size: 1.5rem;
+    }
+    .cam-wrapper{
+        margin-top: 30px;
+    }
+    .cam-bl-right{
+        margin-top: 35px;
+    }
+    .cam-bl-right div{
+        width: 100%;
+    }
+    .cam-r-hdr{
+        min-width: 100% !important;
+        max-width: 350px !important;
+        font-size: 1.1rem !important;
+    }
+    .cam-bl-right .live-s-btn button{
+        position: absolute;
+        top: 28.5%;
+        right: 20px;
+        min-width: 230px;
+        max-width: 230px;
+    }
+    .cam-bl-right div{
+        width: 74%;
+    }
+    #live-call-sec{
+        padding: 19% 8.33% 2% 8.33%;
+    }
+    .pro-side-et .pro-s-txt{
+        min-width: 40%;
+        max-width: 40%;
+    }
+    .pro-side-et .con-pt-bl{
+        min-width: 60%;
+        max-width: 60%;
+    }
+    /* Live Video Calling Page END */
+    .pr-con-btn1 button, .pr-con-btn2 button{
+        padding: 18px 20px !important;
+    }
+    #declineModal .modal-content{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #declineModal .modal-dialog{
+        margin-top: 20%;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) {
+    header{
+        padding: 15px 4.165% 15px 4.165% !important;
+    }
+    #notification-box{
+        left: -153px;
+        min-width: 350px;
+        max-width: 350px;
+        border-radius: 6px;
+    }
+    .nt-arrow-up{
+        right: 149px;
+        top: -37.6px;
+    }
+    .nt-item-b{
+        max-height: 60vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-top: 8%;
+        padding: 0px 0px 5px 0px;
+    }
+    .nt-dot{
+        font-size: 1rem !important;
+    }
+    .nt-item{
+        margin: 5% 0;
+    }
+    .nt-time{
+        font-size: .8rem !important;
+        align-self: flex-end;
+        min-width: 65px !important;
+        max-width: 65px !important;
+    }
+    .nt-txt{
+        font-size: .9rem;
+    }
+    #msg-box{
+        border-radius: 6px;
+    }
+    .msg-i{
+        min-width: 40px;
+        max-width: 40px;
+    }
+    .msg-contents p:nth-child(1){
+        font-size: 1rem;
+    }
+    .msg-contents p:nth-child(2){
+        font-size: .8rem;
+    }
+    .nt-show{
+        top:  167% !important;
+    }
+    #nav-dropdown{
+        width: 124%;
+        left: -12%;
+        top: 145%;
+    }
+    .nav-li-2{
+        justify-content: space-around;
+    }
+    .nav-li-2 a{
+        margin-left: 0;
+    }
+    .nav-li-1 a:nth-child(1){
+        margin-top: 10% !important;
+    }
+    #logo{
+        margin-bottom: 20px;
+    }
+    .search-bar{
+        margin-left: 0;
+    }
+    .search-bar div:first-child{
+        padding-left: 0;
+    }
+    #n-srch-i{
+        left: 70%;
+    }
+    .search-bar .nav-srch input{
+        width: 214%;
+        left: -78.5%;
+    }
+    .search-options select{
+        padding-right: 22px;
+        min-width: 75px;
+        max-width: 80px;
+    }
+    .search-options{
+        min-width: 132px;
+        max-width: 140px;
+        right: -105px;
+    }
+    /*Main screen content*/
+    #main-scr{
+        background-size: 200% 100%;
+        background-position: center;
+    }
+    #main-src-con p{
+        font-size: 10vw;
+        line-height: 75px;
+        margin-top: 5%;
+    }
+    #main-src-img{
+        left: 4.5%;
+    }
+    #main-src-con p span{
+        max-height: 65px;
+    }
+    #hire-pro{
+        top: 80%;
+        left: auto;
+    }
+    #hire-pro a{
+        font-size: 1.8rem;
+    }
+    .wrapper-hdr{
+        font-size: 2rem;
+        margin: 4% 0 8% 0;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none !important;
+    }
+    #wrapper-2{
+        padding-bottom: 15%;
+    }
+    #wrapper-3 .cr-img-contain{
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+    }
+    /*SWIPER*/
+    .cr-img-content{
+        /*min-height: 325px;*/
+        max-height: 330px;
+    }
+    /*Find Producer Section START*/
+    #wrapper-3{
+        padding: 10% 5%;
+    }
+    #find-producer-sec{
+        padding: 10% 0;
+    }
+    #find-pro-data{
+        padding: 10% 8%;
+    }
+    #find-pro-data h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #find-pro-data p{
+        font-size: .9rem;
+    }
+
+    #wrapper-3 .pro-name{
+        font-size: 1rem;
+    }
+    /*Find Producer Section END*/
+
+    /*Sell Beats Section START*/
+    .sell-beat-sec{
+        background-position: 60%;
+        padding: 0;
+    }
+    #sell-b-data h2{
+        margin-bottom: 6%;
+        width: 81%;
+        line-height: 40px;
+        font-size: 24px;
+    }
+    #sell-b-data p{
+        width: 76%;
+        font-size: 1rem;
+    }
+    #sell-b-btn button{
+        font-size: 1.3rem;
+        padding: 8px 45px;
+    }
+    /*Sell Beats Section END*/
+
+    /*Promotion Section START*/
+    #promo-sec{
+        padding-top: 8%;
+        height: 80vh;
+    }
+    #promo-img{
+        height: 45%;
+    }
+    #promo-data h1{
+        font-size: 2.5rem;
+    }
+    #promo-data p{
+        font-size: 1rem;
+        line-height: 30px;
+        margin: 6% 0;
+    }
+    #promo-data div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #promo-data div a img{
+        width: 100%;
+    }
+    #promo-data div a{
+        width: 47% !important;
+    }
+    /*Promotion Section END*/
+
+    /*News Letter Section*/
+    #news-letter{
+        padding: 8% 15px;
+    }
+    #news-letter h2{
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+    #news-letter{
+        padding: 20% 20px;
+    }
+    #news-letter-input #mail-i{
+        font-size: 1.4rem;
+        left: 7%;
+        top: 17.4%;
+    }
+    #news-letter-input #news-input{
+        padding: 4% 15px 4% 12%;
+        border-radius: 4px;
+        width: 100%;
+    }
+    #news-letter-input form{
+        flex-direction: column;
+    }
+    #news-input[placeholder="Enter Email Address"]{
+        font-size: 1rem;
+    }
+    #news-letter-input #news-sub-btn{
+        padding: 3% 4%;
+        font-size: 1rem;
+        margin-top: 4%;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 4px;
+    }
+    #news-letter p{
+        margin: 4% 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #bl-1 ul li a, #bl-2 ul li a, #bl-3 ul li a{
+        font-size: 15px;
+    }
+
+    footer{
+        padding: 10% 15px !important;
+    }
+    #bl-3,
+    #bl-4{
+        margin-top: 5%;
+    }
+    #bl-4-img img{
+        width: 90%;
+    }
+    #bl-2{
+        margin-top: 6%;
+    }
+    #social-medias{
+        width: 40%;
+        margin-top: 6%;
+        margin-bottom: 4%;
+    }
+    #bl-4-img{
+        flex-direction: row;
+    }
+    #social-medias{
+        width: 55%;
+        margin-top: 15%;
+    }
+    .footer-credit p{
+        font-size: 14px;
+        width: 80%;
+    }
+
+    /*Main Player CSS*/
+
+    .t-menu-2 {
+        width: 200px !important;
+        right: 28%;
+        bottom: 100%;
+    }
+    .left-block{
+        margin-top: 5%;
+        flex-direction: column !important;
+    }
+    .left-block .cr-price-btn{
+        width: 91%;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+    .left-block .pr-song-info{
+        margin: 4% 0;
+    }
+    .play-controls, .right-block ul{
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .play-controls a{
+        margin: 0 3%;
+    }
+    .right-block ul{
+        margin-bottom: 4%;
+    }
+    .pr-song-img, .pr-song-img img {
+        min-height: 150px;
+        max-height: 160px;
+    }
+    #pr-progress input[type="range"]{
+        height: 6px;
+    }
+    /*Buy Beats Page START*/
+    .pay-hdr{
+        font-size: 1.3rem;
+    }
+    .cart-items .beat-details{
+        padding-left: 30px !important;
+    }
+    .cart-items .cart-item-op{
+        margin-left: 41.666667%;
+    }
+    #beats-total-pr{
+        padding: 4% 40px;
+    }
+    #beats-total-pr h2{
+        font-size: 1.2rem;
+    }
+    .pay-op-box label{
+        font-size: .8rem;
+        min-width: 140px;
+        max-width: 140px;
+        min-height: 75px;
+        max-height: 75px;
+    }
+    #cart-block{
+        padding: 0;
+    }
+    #cart-block .bt-bottom{
+        margin-bottom: 25px;
+    }
+    #buy-beat-sec{
+        padding: 140px 8.33% 8.33%;
+    }
+    .payment-block .payment-inputs .inp-submit-btn{
+        font-size: 1rem !important;
+    }
+    .payment-block .payment-inputs label{
+        margin-top: 25px;
+    }
+    #pay-tooltip .arrow-up{
+        left: 10%;
+    }
+    .pay-op-box label::before, .pay-op-box label::after{
+        top: 26px;
+        left: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .payment-block .payment-inputs {
+        margin-top: 70px;
+    }
+    .cart-item-op{
+        justify-content: center;
+    }
+    /*Buy Beats Page END*/
+    /*Beats page Tracks*/
+    #tracks-container{
+        padding: 0 15px 30px 15px;
+    }
+    #beats-sec #tracks-container{
+        padding-top: 10%;
+    }
+    #explore-sec, #beats-sec{
+        padding-top: 28%;
+    }
+    #beats-sec .hdr-uppr-row{
+        left: 0;
+    }
+    #view-icons{
+        width: 24%;
+    }
+    .hdr-uppr-row{
+        top: 12%;
+        padding: 3% 0 2% 0;
+    }
+    #side-m-btn{
+        top: 18% !important;
+    }
+    #explore-sidebar{
+        padding-top: 8%;
+        margin-top: 12.5%;
+    }
+    .hdr-uppr-row .wrapper-heading{
+        font-size: 1.2rem;
+        margin-left: 5%;
+        width: 60% !important;
+    }
+    #tracks-container .trending-card{
+        width: 100% !important;
+        margin-left: 0;
+    }
+    #beats-sec .trending-card,
+    #explore-sec .trending-card{
+        margin-top: 10%;
+    }
+    /*Explore Page*/
+    .wrapper-heading{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 0%;
+        top: 12%;
+        left: 0;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .wrapper-sub-hdr{
+        padding-left: 0%;
+        font-size: 1.2rem;
+        margin-top: 18%;
+        text-align: center;
+    }
+    #sb-links-1 li{
+        margin-top: 4%;
+    }
+    .list-view .trending-card{
+        margin: 4% 0 !important;
+    }
+    .list-view .cr-img-content{
+        min-height: 200px;
+        max-height: 165px;
+    }
+    .list-view .cr-play-btn{
+        position: absolute;
+        top: 12%;
+        width: 30px;
+        height: 30px;
+    }
+    .list-view .cr-play-btn span{
+        font-size: 1.2rem;
+    }
+    .list-view .cr-price-btn{
+        position: absolute;
+        margin-top: 46%;
+        margin-right: 22vw;
+    }
+    .list-view .cr-price-btn button{
+        font-size: .8rem !important;
+    }
+    .list-view .cr-img-content{
+        padding: 15px 0% !important;
+    }
+    .list-view .cr-img-contain img{
+        min-width: 45px;
+        max-width: 50px;
+        min-height: 45px;
+        max-height: 50px;
+        margin-left: 14.5%;
+    }
+    #beats-sec .list-view{
+        padding-top: 20% !important;
+    }
+    .list-view .cr-over-options{
+        right: -20%;
+        margin-top: 28%;
+        position: relative;
+        /*top: 74.5%;	*/
+        z-index: 5;
+    }
+    .list-view .cr-info{
+        top: 10%;
+        left: 35%;
+    }
+    .list-view .cr-song-data div:nth-child(1){
+        margin-bottom: 1.5%;
+    }
+    .list-view .song-tags{
+        width: 130%;
+        position: absolute;
+        left: -27%;
+        top: 104%;
+    }
+    .list-view .song-tags a{
+        padding: 3px 6px;
+        font-size: .8rem;
+    }
+    .b-popular-pro .cr-img-content{
+        display: flex;
+        justify-content: center;
+    }
+    #popluar-pr-sec #tracks-container .trending-card{
+        width: 50% !important;
+    }
+    #popluar-pr-sec .cr-img-content{
+        min-height: 160px;
+        max-height: 165px;
+    }
+    #sm-tracks-btn hr{
+        width: 30vw;
+    }
+    #popluar-pr-sec .cr-song-name{
+        padding: 0 15px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    #popluar-pr-sec .b-popular-pro .cr-img-contain{
+        min-width: 120px;
+        max-width: 130px;
+        min-height: 120px;
+        max-height: 130px;
+    }
+    .popluar-pr-sec2 .wrapper-sub-hdr{
+        margin-top: 6%;
+    }
+    .list-view .track-menu {
+        width: 52%;
+        left: 45%;
+        top: 83%;
+    }
+    .list-view .show-menu{
+        top: 90%;
+    }
+    #pro-bg-overlay{
+        padding: 35% 15px 0% 15px !important;
+        flex-direction: column;
+    }
+    .producer-img{
+        margin: 4% auto;
+    }
+    .producer-name, .producer-bio{
+        text-align: center;
+    }
+    #producer-details{
+        margin-left: 0;
+    }
+    #producer-tracks{
+        padding: 3% 15px 70% 15px !important;
+    }
+    .producer-bio{
+        width: 96%;
+        font-size: .9rem;
+    }
+    #pro-lower-row{
+        flex-direction: column;
+    }
+    #hire-producer-btn{
+        text-align: center;
+    }
+    #hire-producer-btn a button{
+        min-width: 77%;
+        max-width: unset;
+        font-size: 1.1rem;
+        padding: 8px 22px 8px 0px;
+    }
+    #pro-social-medias{
+        width: auto;
+        padding-left: 0;
+        margin: 6% 0;
+        justify-content: center;
+    }
+    .producer-name{
+        font-size: 1.7rem;
+    }
+    #pro-social-medias a {
+        font-size: 1rem;
+        min-width: 38px;
+        max-width: 38px;
+        min-height: 38px;
+        max-height: 38px;
+        margin: 0px 3.5%;
+    }
+    #producer-tracks .list-view .trending-card{
+        margin: 0% 0% 3% 2% !important;
+    }
+    #producer-tracks .list-view .song-tags{
+        width: 155%;
+        left: -34%;
+    }
+    #producer-tracks .list-view .cr-info{
+        left: 28%;
+    }
+    #producer-tracks .list-view{
+        padding: 0;
+    }
+    #producer-tracks .list-view .cr-price-btn{
+        right: -19.5%;
+    }
+    #producer-tracks  .list-view .cr-over-options{
+        margin-top: 16%;
+    }
+    #producer-tracks .list-view .cr-price-btn{
+        top: 20%;
+    }
+    #producer-tracks .list-view .track-menu{
+        left: 45%;
+    }
+    #wrapper-sec{
+        padding: 25% 4.165% 5% 4.165%;
+    }
+    .wrapper-con-area{
+        margin-top: 10%;
+    }
+    .wrapper-hd{
+        font-size: 1.3rem;
+    }
+    #upload-pr-pic a{
+        margin-left: 15%;
+        font-size: .9rem;
+    }
+    #upload-pr-pic a button{
+        padding: 12px 24px;
+    }
+    .wrapper-con-area .producer-img, .wrapper-con-area .producer-img img{
+        min-width: 80px;
+        max-width: 80px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+
+    .wrapper-con-area #edit-i{
+        font-size: .8rem !important;
+        left: 64%;
+        min-width: 35px;
+        max-width: 35px;
+        min-height: 35px;
+        min-height: 35px;
+    }
+    .input-fields{
+        margin: 5% 0 3% 0;
+    }
+
+    /* Login and Register Page */
+    #wrapper-con{
+        margin: 0 auto;
+        max-width: 90% !important;
+    }
+    .wrapper-h1{
+        font-size: 1.5rem;
+    }
+    .continue-choices{
+        padding: 0 50px;
+    }
+
+    /* Upload Beats Page */
+    #upload-beats-sec{
+        padding: 140px 30px 10% 30px;
+    }
+    #up-beat-btn button{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .beats-wrapper-con  .input-fields{
+        margin-top: 0;
+    }
+    .input-fields label{
+        margin-top: 8%;
+        margin-bottom: 12px;
+    }
+    #cover-info{
+        padding: 0 15px ;
+    }
+    #upload-beats-sec{
+        padding: 140px 30px 14% 30px;
+    }
+    .stream-flies,
+    #beats-up-cover{
+        padding: 0 !important;
+    }
+    .music-i{
+        margin-right: 30px;
+    }
+    .circle-play-i{
+        margin-top: 1%;
+        margin-right: 15px;
+    }
+    .wrapper-h4,
+    .wrapper-h3{
+        text-align: center
+    }
+    #st-txt{
+        font-size: .9rem;
+    }
+    .up-cover-btn,
+    .up-cover-btn button{
+        width: 100%;
+    }
+    .wrapper-h4{
+        font-size: 1.1rem;
+    }
+    .wrapper-h3{
+        font-size: 1.4rem;
+    }
+    .radio-item label span{
+        font-size: .9rem;
+    }
+    .radio-item label{
+        width: 100%;
+    }
+    .radio-item label span{
+        margin-left: 11px;
+    }
+    .radio-item{
+        margin:  2% 0;
+    }
+    .stream-track{
+        padding: 26px 15px 12px 30px !important;
+    }
+    .sidebar-checkbox {
+        padding-top: 0 !important;
+    }
+    .fliped-card{
+        width: 80%;
+    }
+    .fliped-side .track-path{
+        float: left;
+        max-width: 100% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    #buyBeatsModal{
+        padding-top: 23%;
+    }
+    #buyBeatsModal .modal-dialog{
+        max-width: 100%;
+        /* margin-left: 5%; */
+    }
+    #buyBeatsModal .track-img, #buyBeatsModal .track-img img{
+        min-width: 165px;
+        max-width: 165px;
+        min-height: 165px;
+        max-height: 165px;
+    }
+    #buyBeatsModal .tracks-name{
+        font-size: 1.1rem;
+    }
+    #buyBeatsModal .track-img{
+        margin-bottom: 6%;
+    }
+    #buyBeatsModal .track-des{
+        font-size: 1rem;
+    }
+    #buyBeatsModal #track-items ul{
+        padding: 0;
+    }
+    #buyBeatsModal #track-items ul li{
+        font-size: .9rem;
+    }
+    #buyBeatsModal #track-items ul span{
+        font-size: 1.3rem;
+    }
+    #buyBeatsModal .track-details .cr-price-btn{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    #buyBeatsModal .modal-content{
+        border-radius: 15px;
+    }
+    #buyBeatsModal .track-details .track-hdr{
+        font-size: 1.3rem;
+    }
+
+    .my-beats-con .list-view .cr-info{
+        left: 35%;
+    }
+    .my-beats-con .list-view .cr-price-btn{
+        right: -6vw;
+        top:  13%;
+    }
+    .my-beats-con .list-view .track-menu{
+        width: 43%;
+    }
+    .my-beats-con .list-view .track-menu{
+        left: 180px;
+    }
+    .my-beats-hdr{
+        text-align: center;
+        padding: 34% 4.165% 4% 4.165%;
+    }
+    .my-beats-hdr h2{
+        font-size: 1.6rem;
+    }
+    .my-beats-con .hdr-uppr-row .wrapper-heading{
+        text-align: left;
+        margin-left: 0;
+        width: 64% !important;
+    }
+    .my-beats-con .hdr-uppr-row{
+        top: 99px;
+    }
+    .my-wallet-sec .wrapper-hd{
+        margin-bottom: 6%;
+    }
+    #trans-history{
+        margin-top: 8%;
+    }
+    #trans-history, .wl-con-b{
+        padding: 18px 15px 16px 15px;
+    }
+    #wrapper-sec{
+        padding: 30% 4.165% 8% 4.165%;
+    }
+    .trans-icon{
+        min-width: 22px;
+        max-width: 22px;
+        min-height: 22px;
+        max-height: 22px;
+    }
+    .wl-con-b .sub-btn{
+        width: 74%;
+        left: 13.5%;
+    }
+    .trans-name{
+        font-size: 14px;
+    }
+    .trans-date{
+        font-size: 12px;
+    }
+    #balance-amt{
+        margin-bottom: 2%;
+    }
+    /* .input-fields label{
+        margin-top: 0;
+    } */
+    .up-cover-btn, .pl-submit-btn{
+        font-size: 1rem;
+        padding: 15px 15px !important;
+    }
+    .up-cover-btn{
+        margin-bottom: 5.5%;
+    }
+    .my-playlist-sec #tracks-container{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-playlist-sec .trending-card{
+        margin-bottom: 8% !important;
+    }
+    .my-playlist-sec{
+        padding: 30% 8.33% 8% 8.33% !important;
+    }
+    .my-pl-tracks .cr-img-content,
+    .my-pl-tracks .cr-img-content img{
+        min-height: 340px;
+        max-height: 340px;
+    }
+    .my-playlist-sec .wrapper-hd{
+        margin-bottom: 8%;
+    }
+    #new-playlist-btn hr{
+        margin: 8% 0;
+    }
+    #artworkModal #img-croping{
+        /* min-height: 328px;
+        max-height: 328px; */
+    }
+    #croppedImage .modal-dialog,
+    #artworkModal .modal-dialog,
+    #playlistModal .modal-dialog{
+        width: 90%;
+        margin-top: 27%;
+        margin-left: 5%;
+    }
+    .pl-info-txt{
+        font-size: .8rem;
+    }
+    .pl-cover-img{
+        min-width: 130px;
+        min-height: 128px;
+        max-height: 128px;
+    }
+    #pl-view-btns button{
+        padding: 4px 14px;
+        font-size: .9rem;
+    }
+    .pl-beat-num span{
+        font-size: .9rem;
+    }
+    .pl-date{
+        font-size: .8rem !important;
+    }
+    #pl-view-btns button i{
+        margin-right: 5px;
+    }
+    #pl-view-btns button:nth-child(2){
+        margin-left: 5px;
+    }
+    .pl-beat-num{
+        margin-bottom: 2.4rem;
+    }
+    .pl-view-contents .wrapper-hd{
+        font-size: 1.2rem;
+    }
+    #new-playlist-btn{
+        margin-top: 16%;
+    }
+    .pl-v-beats .list-view .cr-price-btn{
+        right: -25px;
+    }
+    .playliist-view{
+        padding: 30% 4.165% 2.5% 4.165% !important;
+    }
+    .created-playlist{
+        padding: 0% !important;
+    }
+    .created-playlist #pl-view-hdr{
+        padding: 38% 4.165% 8.5% 8.33% !important;
+    }
+    .beats-info-hdr{
+        padding: 36% 4.165% 2.5% 4.165%;
+    }
+    #bt-sub-hdr{
+        align-items: flex-start;
+    }
+    .bt-hdr1{
+        font-size: 1.1rem;
+    }
+    .bt-hdr2{
+        font-size: .9rem;
+    }
+    .bt-date{
+        font-size: .8rem;
+    }
+    .bt-info-block{
+        padding: 2% 8.33% 8% 8.33%
+    }
+    .bt-info-img, .bt-info-img img{
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 150px;
+        max-height: 150px;
+    }
+    .bt-price-btn{
+        margin-top: 10%;
+    }
+    .bt-info-con{
+        padding: 15px 20px;
+    }
+    .bt-tabs-rw{
+        margin-top: 12%;
+        margin-left: 0 !important;
+    }
+    .bt-tabs-rw a{
+        font-size: 1rem;
+    }
+    .bt-info-con #pro-lower-row{
+        align-items: initial;
+    }
+    .bt-info-con .producer-img,
+    .bt-info-con .producer-img img{
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+    }
+    .bt-info-con .producer-name{
+        font-size: 1.3rem;
+    }
+    .bt-info-con .producer-bio{
+        width: 100%;
+        font-weight: 300;
+        line-height: 28px;
+        font-size: .9rem;
+        margin-bottom: 12%;
+    }
+    .bt-info-con #producer-details{
+        padding: 0 !important;
+    }
+    .bt-info-con #hire-producer-btn a button{
+        padding: 12px 22px 12px 0px;
+        border-radius: 4px;
+    }
+    .cmt-img{
+        max-width: 35px;
+        min-width: 35px;
+        min-height: 35px;
+        max-height: 35px;
+    }
+    .cmt-hdr{
+        margin-top: 8px;
+        font-size: 1.1rem;
+    }
+    .bt-info-block{
+        padding: 2% 4.165% 8% 4.165%;
+    }
+    .cmt-img i{
+        font-size: 1.5rem;
+    }
+    .cmt-item{
+        margin-top: 8%;
+    }
+    .cmt-contents{
+        margin-left: 15px;
+    }
+    .cmt-like-btn img{
+        min-width: 20px;
+        max-width: 20px;
+    }
+    .cmt-like-btn span{
+        font-size: .9rem;
+        padding-top: 2px;
+        margin-right: 12px;
+    }
+    .purchase-sec{
+        padding: 24% 11.33% 5% 11.33%;
+    }
+    .pur-hdr{
+        font-size: 1.6rem;
+    }
+    .pur-hdr2{
+        font-size: 1rem;
+    }
+    #nt-i{
+        margin-left: 0;
+    }
+    .hire-sub-btn{
+        font-size: 1.1rem;
+        width: 100% !important;
+    }
+    #hire-pro-sec{
+        padding: 26% 9% 3% 9%;
+    }
+    #hire-pro-img, #hire-pro-img img{
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+    }
+    .pro-name{
+        font-size: 1.3rem;
+    }
+    .hire-sec{
+        padding: 26% 9% 8% 9% !important;
+        overflow: hidden;
+    }
+    #chat-s-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .view-p-btn button{
+        font-size: 1rem;
+        margin-top: 4%;
+        padding: 10px 70px;
+    }
+    #chat-s-btn{
+        top: 20%;
+    }
+    #messenger-sec{
+        padding: 26.5% 4.165% 5% 4.165%;
+    }
+    #msg-sidebar{
+        padding: 16% 0px 2% 15px;
+    }
+    .chats-con-show{
+        max-width: 90% !important;
+    }
+    .chat-hdr{
+        padding: 15px 10px 20px 20px;
+    }
+    .con-hdr-t{
+        font-size: 1rem;
+    }
+    .info-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .inst-btn-1 button, .inst-btn-2 button{
+        min-width: 300px;
+        max-width: 300px;
+    }
+    .chat-right-b{
+        margin-top: 0;
+    }
+    .chat-right-b{
+        padding: 15px 16px !important;
+    }
+    .bar-op span{
+        font-size: 1.5rem;
+    }
+    .bar-op .bar-op-t{
+        font-size: .9rem;
+    }
+    .bottom-bar-ops{
+        justify-content: space-between;
+    }
+    .send-msg-btn{
+        padding: 10px;
+    }
+    .bar-op img{
+        min-width: 24px;
+        max-width: 24px;
+        min-height: 24px;
+        max-height: 24px;
+    }
+    .bottom-bar-ops a{
+        margin-left: 0px;
+    }
+    .bottom-bar-ops a:first-child{
+        margin-left: 0;
+    }
+    #conversation-sec{
+        margin-top: 10px;
+        min-height: 398px;
+        max-height: 400px;
+    }
+    .info-box{
+        padding: 13px 20px;
+    }
+    .inst-btns{
+        margin-bottom: 40px;
+    }
+    .info-b-txt span{
+        font-size: .8rem;
+    }
+    .info-b-i{
+        margin-right: 6px;
+    }
+    .info-b-i img{
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .user-name{
+        font-size: 1rem;
+    }
+    .ch-hdr-line{
+        display: none;
+    }
+    .chat-right-b{
+        height: 85vh;
+    }
+    .user-msg-bl p{
+        font-size: .9rem;
+    }
+    .user-msg-bl{
+        max-width: 235px;
+    }
+    .right-user-msg .user-msg-bl{
+        max-width: 235px;
+    }
+    .msg-user-img, .msg-user-img img{
+        min-width: 30px;
+        max-width: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
+    .new-msg-count{
+        font-size: .8rem;
+        min-width: 18px;
+        max-width: 18px;
+        min-height: 18px;
+        max-height: 18px;
+    }
+    .con-hdr-txt{
+        font-size: 1.1rem;
+    }
+    #contract-details{
+        padding: 20px 15px;
+    }
+    #con-details{
+        max-height: 440px;
+    }
+    .con-pt-bl{
+        min-width: 218px;
+    }
+    .con-item-diff,
+    .con-item{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .con-item-txt,
+    .con-item .con-item-txt{
+        margin-bottom: 15px;
+    }
+    .con-partcipant{
+        margin-left: 0;
+    }
+    .validate-btn{
+        margin-left: 0;
+    }
+    .validate-btn button{
+        width: 100%;
+    }
+    .pt-btm-li a{
+        font-size: .9rem;
+    }
+    .info-box3 .info-b-txt{
+        margin-left: 8px;
+    }
+    .info-box3 .info-b-i img{
+        min-width: 30px;
+        max-width: 30px;
+        margin-right: 5px;
+    }
+    #liveSession .modal-content{
+        padding: 18px 15px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #liveSession .live-img,
+    #liveSession .live-img img{
+        min-width: 120px;
+        max-width: 120px;
+        min-width: 120px;
+        max-height: 120px;
+    }
+    #liveSession .modal-dialog{
+        margin-top: 35%;
+    }
+    .live-des-t{
+        min-width: 250px;
+        max-width: 250px;
+        font-size: .9rem;
+        margin: 30px 0;
+    }
+    .live-s-btn button{
+        min-width: 260px;
+        max-width: 260px;
+    }
+
+    #live-s-sec{
+        padding: 27% 8.33% 3% 8.33%;
+    }
+    .live-hdr{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .cam-wrapper{
+        margin-top: 22px;
+    }
+    .cam-r-hdr{
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+    .cam-bl-right .live-s-btn button{
+        position: relative;
+        left: 0;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .cam-info-txt{
+        font-size: 1.1rem;
+    }
+    .cam-btn{
+        min-width: 60px;
+        max-width: 60px;
+        max-height: 60px;
+        min-height: 60px;
+    }
+    .cm-mic-i, .cam-active-i{
+        background-size: 20px 20px;
+    }
+    .cam-block{
+        min-height: 360px;
+        max-height: 360px;
+    }
+    .cam-participant .con-item-txt{
+        min-width: 110px;
+        margin-bottom: 0;
+    }
+    .cam-bl-right{
+        padding-left: 15px !important;
+    }
+    .cam-bl-right div{
+        width: 100%;
+    }
+    #live-call-sec{
+        padding: 25% 4.165% 2% 4.165%;
+    }
+    .pl-bottom-bar{
+        padding: 10px 100px 30px 100px;
+    }
+    .caller-img{
+        border-radius: 8px;
+    }
+    .caller-img, .caller-img img{
+        min-width: 70px;
+        max-width: 70px;
+        min-height: 70px;
+        max-height: 70px;
+    }
+    .caller-img{
+        border: 2px solid #fff;
+        right: 20px;
+        top: 25px;
+    }
+    .call-bg-img{
+        min-height: 280px;
+        max-height: 280px;
+    }
+    .cam-btn {
+        min-width: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        min-height: 50px;
+    }
+    .cm-call-i{
+        background-size: 30px 30px;
+    }
+    .call-main-wrapper{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .calling-wrapper{
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .pl-bottom-bar{
+        padding: 10px 15px 30px 15px;
+    }
+    .pl-bottom-btns{
+        flex-direction: column;
+    }
+    .pl-btn2 button{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .pro-side-et .pro-s-txt{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .pro-side-et .con-pt-bl{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    /* Live Video Calling Page END */
+    .pro-con-btns{
+        flex-direction: column;
+    }
+    .pr-con-btn1 button, .pr-con-btn2 button{
+        padding: 18px 45px !important;
+    }
+    .pr-con-btn2{
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .pro-side-et .cam-participant{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .pro-side-et .con-item-txt{
+        margin-bottom: 15px;
+    }
+    #declineModal .modal-content{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #declineModal .modal-dialog{
+        margin-top: 35%;
+    }
+    #declineModal .modal-content{
+        padding: 15px !important;
+    }
+    #declineModal .modal-body{
+        padding: 15px 0 !important;
+    }
+}
+

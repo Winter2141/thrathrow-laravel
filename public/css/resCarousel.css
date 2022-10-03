@@ -1,0 +1,246 @@
+/*resCarousel Css*/
+
+.resCarousel {
+    margin-top: 5%;
+    position: relative;
+}
+
+.resCarousel-inner {
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.resCarousel-inner .item {
+    display: inline-block;
+    font-size: 14px;
+    white-space: initial;
+
+}
+
+.img_container{
+    overflow: hidden;
+}
+
+/*icons css*/
+
+:root {
+    --ease: cubic-bezier(.2,1,.3,1);
+}
+
+svg {
+    margin: 0 2rem;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.leftRs, .rightRs{
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: 100%;
+    z-index: 100;
+}
+
+.leftRs{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.4),transparent);
+    top: 0;
+    bottom: 0;
+}
+
+.rightRs {
+    background-image: linear-gradient(to left,rgba(0,0,0,0.4),transparent);
+    right: 0;
+    bottom: 0;
+}
+
+polygon, path {
+    transition: all .5s;
+}
+
+.slider_btn:hover polygon, .slider_btn:hover path {
+    transition: all .4s ;
+    fill: #1e90ff;
+}
+
+.slider_btn:hover{
+    cursor: pointer;
+}
+
+.slider_btn:hover .arrow {
+    -webkit-animation: arrow-anim 1.5s  infinite;
+            animation: arrow-anim 1.5s  infinite;
+}
+
+.slider_btn:hover .arrow-fixed {
+    -webkit-animation: arrow-fi-anim 1.5s  infinite;
+            animation: arrow-fi-anim 1.5s  infinite;
+}
+
+@-webkit-keyframes arrow-anim {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    5% {
+        transform: translateX(-0.1rem);
+    }
+    100% {
+        transform: translateX(1rem);
+        opacity: 0;
+    }
+}
+
+@keyframes arrow-anim {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    5% {
+        transform: translateX(-0.1rem);
+    }
+    100% {
+        transform: translateX(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes arrow-fi-anim {
+    5% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes arrow-fi-anim {
+    5% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*icons end*/
+
+/*banner*/
+
+.banner {
+    overflow: hidden !important;
+}
+
+/*tile css*/
+
+.resCarousel-inner .item .tile {
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 5px;
+}
+
+/*animation*/
+
+.resCarousel[data-animator="lazy"] .item {
+    transition: .4s ease all;
+}
+
+@media (max-width: 767px) {
+    .leftRs,
+    .rightRs {
+    }
+    .resCarousel-inner {
+        overflow-x: auto;
+    }
+}
+
+.resCarousel-inner .item {
+    text-align: center;
+}
+
+.resCarousel-inner .item h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.banner .item div {
+    background-size: cover;
+}
+
+.item .tile .img_container {
+    background-size: cover;
+    height: 380px;
+    color: white;
+}
+
+.item div h1 {
+    background: rgba(0, 0, 0, .4);
+}
+
+/*Ratings start */
+
+.profile_link a{
+    text-decoration: none;
+    color: #1e90ff;
+    font-family: Bookman;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* for name */
+
+/* @black: #1d1d1d; */
+
+.profile_link a:hover {
+    color: #1e90ff;
+}
+
+.btn-arrow {
+    position: relative;
+    transition: background-color 300ms ease-out;
+}
+
+span {
+    display: inline-block;
+    position: relative;
+    transition: all 300ms ease-out;
+    will-change: transform;
+}
+
+.profile_link a:hover span {
+    transform: translate3d(-1rem, 0, 0);
+}
+
+.name_btn {
+    position: absolute;
+    width: .8em;
+    left: 2.5rem;
+    opacity: 0;
+
+    transform: translateY(-65%);
+    transition: all 300ms ease-out;
+    will-change: right, opacity;
+}
+
+* {
+    stroke-width: 5;
+    stroke-color: transparent;
+}
+
+.profile_link a:hover .name_btn {
+    opacity: 1;
+    left: 1rem;
+}
+
+/*resCarousel Css End*/
+
